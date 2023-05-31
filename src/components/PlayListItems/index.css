@@ -1,0 +1,58 @@
+.list-element {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-name-genre-container {
+  display: flex;
+  align-items: center;
+}
+
+.playlist-image {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.name-genre-container {
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  margin-top: 6px;
+}
+
+.delete-duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  margin-right: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.delete-icon {
+  color: #ffffff;
+  font-size: 16px;
+}
